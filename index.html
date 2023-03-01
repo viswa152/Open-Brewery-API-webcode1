@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brewery Lists</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+      <section id="background-image" class="background">
+      </section>
+      <section class="text">
+      <header>
+        <h1>Get a list of breweries </h1>
+        </header>
+        <h2>Your Access To The GoodLife </h2>
+        <h2>These new breweries are amping up !!!</h2>
+          <p>Enter your city below and get a list of breweries in your area. Check out their websites, and pick one. We'll give you a new, sorted list of the locations with the closest proximity, so you can plan an outing.</p>
+        <form id="js-form">
+          <section id="city">
+            <label for="js-search-city">City</label>
+            <input type="text" name="search-term" id="js-search-city">
+          </section>
+          &nbsp;
+          <section id="search">       
+            <input type="submit" value="Pick list!">
+            </section>
+        </form>
+        <section id="results" class="hidden">
+            <h3>Here are your Breweries List</h3>            
+            <ul id="results-list" class="beer-image">
+              <li>Sample Input</li>
+            </ul>
+        </section>
+        </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
